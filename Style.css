@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+.topnav {
+    overflow: hidden;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.topnav a {
+    float: left;
+    color: cadetblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: purple;
+    color: black;
+}
+#active {
+    color: black;
+}
