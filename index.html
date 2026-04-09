@@ -14,7 +14,30 @@
      </nav>
      </header>
      <main>
+        <section>
+            <img src="sea-of-clouds.jpg" class="myImages">
+            <img src="pexels-simon73-1323550.jpg" class="myImages">
+            <img src="four-frosted-popsicles-wallpaper-thumb.jpg" class="myImages">
+            <img src="nature.jpg" class="myImages">
+            <img src="wp11125000.jpg" class="myImages">
+        </section>
      </main>
      <footer></footer>
+     <script>
+        var Index = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("myImages");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            Index++;
+            if (Index > x.length) {Index = 1}
+            x[Index-1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+     </script>
     </body>
 </html>

@@ -23,3 +23,15 @@ body {
 #active {
     color: black;
 }
+.myImages {
+    height: 400px;
+    margin: 0 auto;
+}
+#about {
+    display: flex;
+    justify-content: space-around;
+    background-color: palegoldenrod;
+}
+#about-text {
+    width: 50%;
+}
