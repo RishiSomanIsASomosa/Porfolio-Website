@@ -33,6 +33,7 @@ body {
     background-color: palegoldenrod;
     padding: 20px;
 }
+    
 #about-text {
     width: 50%;
 }
@@ -90,4 +91,33 @@ body {
 }
 body{
     background-color: palegoldenrod;
+}
+
+.m-heading {
+    font-weight: 700;
+    margin-top: 6px;
+}
+#social-media {
+        background-color: peachpuff;
+    } 
+.media_link {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-right: 18px;
+    background: transparent;
+    text-align: left;
+}
+.row.pt-5 {
+    gap: 18px;
+}
+.media_link {
+    font-size: 16px;
+    font-weight: 600;
+}
+.Social-icon {
+    height: 70px;
+}
+.media_link.bg-warning {
+    border: 2px solid black;
 }
